@@ -1,0 +1,18 @@
+python v2x/eval.py \
+--input /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/DAIR-V2X-C-test/cooperative-vehicle-infrastructure \
+--output /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/DAIR-V2X-val/eval_test_B_2 \
+--model late_fusion \
+--dataset vic-async \
+--k 0 \
+--split test \
+--split-data-path ./data/split_datas/cooperative-split-data.json \
+--inf-config-path ./checkpoints/infrastructure-side/anc_1e4_aug1_30/trainval_config_i_anc_1e4_aug1_30_test.py \
+--inf-model-path ./checkpoints/infrastructure-side/anc_1e4_aug1_30/epoch_30.pth \
+--veh-config-path ./checkpoints/vehicle-side/final/aug0.5_epoch_final/trainval_config_v_anc_1e4_aug0.5_30_test.py \
+--veh-model-path ./checkpoints/vehicle-side/final/aug0.5_epoch_final/epoch_30.pth \
+--device 0 \
+--pred-class car \
+--sensortype lidar_camera \
+--extended-range 0 -39.68 -3 100 39.68 1 \
+--overwrite-cache \
+--no-comp

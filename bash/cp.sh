@@ -1,0 +1,4 @@
+cp -r /workspace/mnt/storage/guangcongzheng/zju_zgc/DAIR-V2X/data/DAIR-V2X/cooperative-vehicle-infrastructure/vehicle-side/training/label_2 /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/kitti/training
+cp -r /workspace/mnt/storage/guangcongzheng/zju_zgc/DAIR-V2X/data/DAIR-V2X/cooperative-vehicle-infrastructure/vehicle-side/training/velodyne /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/kitti/training
+cp -r /workspace/mnt/storage/guangcongzheng/zju_zgc/DAIR-V2X/data/DAIR-V2X/cooperative-vehicle-infrastructure/vehicle-side/training/velodyne_reduced /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/kitti/training
+# cp /workspace/mnt/storage/guangcongzheng/zju_zgc/DAIR-V2X/data/DAIR-V2X/cooperative-vehicle-infrastructure/vehicle-side/training/label_2 /workspace/mnt/storage/guangcongzheng/zju_fbz_backup/kitti/training
