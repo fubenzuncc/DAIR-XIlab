@@ -1,3 +1,5 @@
+We got 64map(car bev 0.5) in Object Detection (VIC3D) task（baseline  51.13 map）
+
 # OpenDAIRV2X
 ## Introduction
 To accelerate computer vision research and innovation for Vehicle-Infrastructure Cooperative Autonomous
